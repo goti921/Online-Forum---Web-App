@@ -1,0 +1,99 @@
+body{
+	font-family: helvetica,arial,sans-serif;
+	font-size:20px;
+	background-image:url("../images/back.jpg");
+	padding: 0px;
+	margin: 0px;
+	color:white;
+}
+
+#header{
+	width: 100%;
+	height: 20%;
+	border-bottom: 5px solid rgba(255,255,255,0.8);
+}
+
+#header_text{
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	text-align:center;
+	margin-top:20px;
+	font-size:80px;
+	text-decoration:none;
+	color:white;
+}
+
+#header_text:hover{
+	transition:2s ease;
+	color:red;
+}
+
+
+
+#login_fields{
+	width:200px;
+	height:auto;
+	margin:0px auto;
+	margin-top:30px;
+}
+
+#login_outbox{
+	width:30%;
+	height:400px;
+	margin:0 auto;
+	margin-top:3%;
+	border:1px solid #d3d3d3;
+	border-radius:5px;
+	background-color:rgba(199,191,191,0.2);
+	box-shadow: 0 0 20px 3px #D3D3D3;
+}
+
+#login_fields input[type="text"],input[type="password"]{
+	width:200px;
+	height:25px;
+	margin-top:15px;
+	margin-bottom:15px;
+	background-color: #d3d3d3;
+	border-radius:3px;
+}
+
+#login_fields input:focus{ 
+		border: 1px solid #ff5400; 
+		background-color: rgba(255, 255, 255, 1); 
+		border-radius:3px;
+}
+
+#login_fields input[type="submit"]{
+	width:85px;
+	height:35px;
+	font-size:17px;
+	font-weight:bold;
+	color:black;
+	margin-left:60px;
+	margin-top:15px;
+}
+
+#register{
+	margin-left:190px;
+	margin-top:20px;
+}
+
+#register a{
+	text-decoration:none;
+}
+
+#register a:visited{
+	color:blue;
+}
+
+#register a:hover{
+	color:purple;
+}
+
+footer{
+	text-align:center;
+	width:100%;
+	height:30px;
+	bottom:0;
+	position:fixed;
+	background-color:rgba(255,255,255,0.2);
+}
